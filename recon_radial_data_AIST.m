@@ -1,5 +1,9 @@
-addpath('fessler\irt')
-addpath('fessler\irt\systems')
+%addpath('fessler\irt')
+%addpath('fessler\irt\systems')
+
+cd 'fessler\irt';
+run setup.m
+cd ..\..
 
 rawdatfile = 'E:\ResearchMRI\data\meas_MID06716_FID05964_SAG_MPnRAGE_RADIAL_GOLDEN.dat';
 
